@@ -1,4 +1,4 @@
-FROM tomcat:10.1.61-jdk24-temurin-jammy
+FROM tomcat:10.1.61-jdk21-temurin-jammy
 
 RUN rm -rf /usr/local/tomcat/webapps/*
 
